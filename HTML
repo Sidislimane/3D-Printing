@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impresión 3D & Ingeniería Mecánica y Electrónica</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        .hero-section {
+            background-image: url('https://example.com/hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px #000;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .services {
+            padding: 60px 0;
+        }
+        .services h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .service-box {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .service-box img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .service-box p {
+            font-size: 1.1rem;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .testimonials {
+            padding: 60px 0;
+            background-color: #f9f9f9;
+        }
+        .testimonials blockquote {
+            background: #fff;
+            padding: 20px;
+            border-left: 5px solid #007bff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .testimonials footer {
+            font-style: italic;
+        }
+        .contact-form {
+            padding: 50px 0;
+        }
+        .contact-form h2 {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Impresión 3D & Ingeniería Avanzada</h1>
+            <p>Soluciones a medida en mecánica y electrónica con la máxima precisión</p>
+            <a href="#services" class="btn btn-primary btn-lg">Descubre nuestros servicios</a>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4 service-box">
+                    <img src="https://example.com/3d-printing.jpg" alt="Impresión 3D">
+                    <h3>Impresión 3D</h3>
+                    <p>Materiales de alta calidad y soluciones personalizadas para prototipos y piezas finales.</p>
+                </div>
+                <div class="col-md-4 service-box">
+                    <img src="https://example.com/mechanical-engineering.jpg" alt="Ingeniería Mecánica">
+                    <h3>Ingeniería Mecánica</h3>
+                    <p>Prototipos funcionales, diseño CAD y análisis estructural para proyectos industriales.</p>
+                </div>
+                <div class="col-md-4 service-box">
+                    <img src="https://example.com/electronic-engineering.jpg" alt="Ingeniería Electrónica">
+                    <h3>Ingeniería Electrónica</h3>
+                    <p>Desarrollo de hardware, diseño de PCB y ensamblaje para aplicaciones avanzadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="text-center">Testimonios de nuestros clientes</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>"El equipo nos entregó piezas 3D de alta calidad que superaron nuestras expectativas."</p>
+                        <footer class="blockquote-footer">Andrea López, CEO de TechnoPro</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p>"Prototipos mecánicos impecables, con gran atención al detalle en cada proyecto."</p>
+                        <footer class="blockquote-footer">Juan Pérez, Ingeniero Mecánico en Innovatech</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="text-center">Galería de Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://example.com/project1.jpg" alt="Proyecto 1">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://example.com/project2.jpg" alt="Proyecto 2">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://example.com/project3.jpg" alt="Proyecto 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contact" class="contact-form">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Impresión 3D & Ingeniería Mecánica y Electrónica. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
